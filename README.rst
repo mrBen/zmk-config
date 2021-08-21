@@ -1,1 +1,1 @@
-.. image:: cover/corne.png
+.. image:: layout/corne.png
