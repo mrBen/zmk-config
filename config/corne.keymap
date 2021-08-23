@@ -24,10 +24,10 @@
 // |     |  À  |  Y  |  X  |  .  |  K  |   |  ’  |  Q  |  G  |  H  |  F  |  W  |
 //                   | ESC | SPC | TAB |   | ENT | BKSP| DEL |
             bindings = <
-    &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp LBKT
-    &none &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-    &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RBKT
-  &lt FUN ESC &lt NUM SPACE &lt NAV TAB   &lt 5 RET &lt SYM BSPC &mt RALT DEL
+    &none &kp Q      &kp W      &kp E       &kp R       &kp T   &kp Y &kp U       &kp I       &kp O      &kp P         &kp LBKT
+    &none &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G   &kp H &mt RSHFT J &mt RCTRL K &mt LALT L &mt RGUI SEMI &kp SQT
+    &none &kp Z      &kp X      &kp C       &kp V       &kp B   &kp N &kp M       &kp COMMA   &kp DOT    &kp FSLH      &kp RBKT
+                        &lt FUN ESC &lt NUM SPACE &lt NAV TAB   &lt 5 RET &lt SYM BSPC &mt RALT DEL
             >;
         };
 
