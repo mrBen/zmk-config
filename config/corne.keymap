@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Benjamin Collet <benjamin.collet@protonmail.ch>
+ * Copyright (c) 2025 Benjamin Collet <benjamin.collet@protonmail.ch>
  *
  * SPDX-License-Identifier: MIT
  */
@@ -19,15 +19,6 @@
 };
 
 / {
-    behaviors {
-        td_bspc: tap_dance_backspace {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_BACKSPACE";
-            #binding-cells = <0>;
-            bindings = <&lt SYM BACKSPACE>, <&kp BACKSPACE>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -41,7 +32,7 @@
     &none &kp Q      &kp W      &kp E       &kp R       &kp T   &kp Y &kp U       &kp I       &kp O      &kp P         &kp LBKT
     &none &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G   &kp H &mt RSHFT J &mt RCTRL K &mt LALT L &mt RGUI SEMI &kp SQT
     &none &kp Z      &kp X      &kp C       &kp V       &kp B   &kp N &kp M       &kp COMMA   &kp DOT    &kp FSLH      &kp RBKT
-                        &lt FUN ESC &lt NUM SPACE &lt NAV TAB   &lt BT RET &td_bspc &mt RALT DEL
+                        &lt FUN ESC &lt NUM SPACE &lt NAV TAB   &lt BT RET &lt SYM BSPC &mt RALT DEL
             >;
         };
 
